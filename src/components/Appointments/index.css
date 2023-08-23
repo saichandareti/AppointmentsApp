@@ -1,0 +1,155 @@
+.main-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #b5b7c4);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px;
+  margin-left: 50px;
+}
+.bg-container {
+  background-color: #ffffff;
+  width: 70%;
+  border-radius: 10px;
+}
+.main-heading {
+  color: #171f46;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.label {
+  font-size: 12px;
+  font-family: Roboto;
+  color: #b5b7c4;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.title-input {
+  border: 1px solid #fbc7d4;
+  border-radius: 4px;
+  padding: 5px;
+  padding-left: 8px;
+  margin-bottom: 14px;
+  width: 260px;
+  outline: none;
+}
+.button {
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #8b5cf6;
+  border: 0px solid;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-top: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+.upper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.image {
+  height: 230px;
+  margin-top: 30px;
+}
+.rule {
+  width: 88%;
+  margin-left: 75px;
+  border-top: 1px solid #b5b7c4;
+  border-bottom: 0px;
+  margin-top: -20px;
+}
+.appointment-heading {
+  color: #171f46;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+}
+.lower-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: -30px;
+  padding-left: 90px;
+}
+.list-container {
+  padding-left: 0px;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.starred-button {
+  font-size: 10px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.starred-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.add-color {
+  background-color: #9897f0;
+  color: #ffffff;
+}
+@media (max-width: 786px) {
+  .main-container {
+    width: 50vw;
+  }
+  .bg-container {
+    width: 90%;
+  }
+  .image {
+    height: 0px;
+  }
+  .main-heading {
+    margin-left: 0px;
+  }
+  .left-container {
+    margin-left: 0px;
+  }
+  .title-input {
+    width: 90%;
+  }
+  .lower-container {
+    padding-left: 10px;
+  }
+  .rule {
+    margin-left: 10px;
+  }
+  .starred-container {
+    justify-content: center;
+  }
+  .starred-button {
+    margin-left: 10px;
+    margin-top: 13px;
+  }
+  .appointment-heading {
+    margin-right: 60px;
+  }
+}
